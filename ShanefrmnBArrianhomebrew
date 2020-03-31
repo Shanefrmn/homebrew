@@ -1,0 +1,2456 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "BarrianHomebrew",
+				"abbreviation": "BH",
+				"full": "Barrian Homebrew",
+				"url": "",
+				"authors": [
+					"Shanefrmn"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1585676103,
+		"dateLastModified": 1585676103
+	},
+	"monster": [
+		{
+			"name": "End",
+			"shortName": "End",
+			"source": "BarrianHomebrew",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					{
+						"tag": "Half-Demon",
+						"prefix": "Half Demon"
+					}
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d8 + 6",
+				"average": 38
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 13,
+			"con": 13,
+			"int": 18,
+			"wis": 13,
+			"cha": 16,
+			"save": {
+				"con": "+4",
+				"cha": "+6"
+			},
+			"skill": {
+				"arcana": "+7",
+				"persuasion": "+6",
+				"athletics": "+3",
+				"deception": "+6",
+				"intimidation": "+6",
+				"religion": "+7"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 11,
+			"resist": [
+				"fire"
+			],
+			"immune": [
+				"acid"
+			],
+			"languages": [
+				"Draconic plus any one language"
+			],
+			"cr": "7",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The sorcerer is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 15}, +6 to hit with spell attacks). It can cast the following sorcerer spells."
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell acid splash}",
+								"{@spell fire bolt|PHB}",
+								"{@spell gust|XGE}",
+								"{@spell mending|PHB}",
+								"{@spell shape water|XGE}",
+								"{@spell thaumaturgy|PHB}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell disguise self|PHB}",
+								"{@spell false life|PHB}",
+								"{@spell hellish rebuke|PHB}",
+								"{@spell ice knife|XGE}",
+								"{@spell jump|PHB}",
+								"{@spell magic missile|PHB}",
+								"{@spell sleep}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell blindness/deafness|PHB}",
+								"{@spell blur|PHB}",
+								"{@spell crown of madness}",
+								"{@spell darkness|PHB}",
+								"{@spell hold person}",
+								"{@spell levitate}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell fear}"
+							],
+							"slots": 3
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 5} to hit, range 20/60 ft., one target. {@b Hit}: 4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Short sword of life stealing",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 2}) piercing damage.",
+						"When you attack a creature with this magic weapon and roll a 20 on the attack roll, that target takes an extra 10 necrotic damage if it isn't a construct or an undead. You also gain 10 temporary hit points."
+					]
+				},
+				{
+					"name": "Vicious Srortsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 2}) piercing damage.",
+						"When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Hellish rebuke",
+					"entries": [
+						"{@damage 3d10} damage Casting Time:",
+						"1 reaction, which you take in response to being damaged by a creature within 60 feet of you that you can see within 60ft.",
+						"You point your finger, and the creature that damaged you is momentarily surrounded by hellish flames. The creature must make a Dexterity saving throw. It takes {@damage 2d10} fire damage on a failed save, or half as much damage on a successful one.",
+						"At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 1d10} for each slot level above 1st."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.pinimg.com/236x/79/24/32/7924323bdcd16633321457e03800cca8.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.pinimg.com/236x/79/24/32/7924323bdcd16633321457e03800cca8.jpg",
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"DR",
+				"X"
+			],
+			"damageTags": [
+				"P"
+			],
+			"spellcastingTags": [
+				"CS"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			],
+			"uniqueId": "79adebf88aa2dd77b717a9a3c231f360"
+		},
+		{
+			"name": "Mika Thune",
+			"shortName": "Mika Thune",
+			"alias": [
+				"Malice Nightfall"
+			],
+			"source": "BarrianHomebrew",
+			"level": 6,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"Lichling"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"formula": "6d6 + 18",
+				"average": 41
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 18,
+			"con": 16,
+			"int": 12,
+			"wis": 12,
+			"cha": 17,
+			"skill": {
+				"deception": "+6",
+				"stealth": "+7"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 11,
+			"immune": [
+				"necrotic"
+			],
+			"languages": [
+				"Deep Speech plus any one language"
+			],
+			"cr": "6",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The sorcerer's spellcasting ability is Charisma ({@hit 7} to hit with spell attacks, spell save {@dc 15}). The sorcerer can cast the following spells innately:"
+					],
+					"will": [
+						"{@spell chill touch}",
+						"{@spell death bolt|newspells}",
+						"{@spell false life}",
+						"{@spell message|PHB}",
+						"{@spell moth swarm|newspells}"
+					],
+					"daily": {
+						"4e": [
+							"{@spell life fades|newspells}",
+							"{@spell palpitate|newspells}",
+							"{@spell soul drain|newspells}",
+							"{@spell wrath|newspells}"
+						],
+						"3e": [
+							"{@spell ray of sickness|PHB}"
+						]
+					},
+					"spells": {
+						"3": {
+							"spells": [
+								"{@spell animate dead|PHB}"
+							],
+							"slots": 3
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Innate Necrosis",
+					"entries": [
+						"The power of undeath has long laid dormant in your bloodline and has emerged in you with horrifying consequences",
+						"You have resistance to necrotic damage but are vulnerable to radiant damage. You can only be healed through necromancy, potions, or resting. Any attempt to heal you with divine magic instead damages you for the number rolled. "
+					]
+				},
+				{
+					"name": "Call Upon Souls",
+					"entries": [
+						"The spirits of death surround you.  You can see spectral souls that linger in the material realm and they know that you are aware of them.  You have advantage on all fear checks.  Once per short rest  (per 3 levels) you may  Call Upon Souls to protect you the souls surround you as per shield spell.  Additionally once per short rest (per 3 levels) you may Call Upon Souls to attack.  The souls surround your opponent and draw life force from it doing {@dice 2d6} points of damage an Additional damage die is added for every 2 levels above first.  Using these powers is extremely taxing and you must make a Con savings throw or suffer a level of {@condition exhaustion} if you Call Upon Souls more times than your level before a long rest."
+					]
+				},
+				{
+					"name": "Undead Fortitude",
+					"entries": [
+						"If damage reduces the sorcerer to 0 hit points, it must make a Constitution saving throw with a DC of 5 plus the damage taken, unless the damage is radiant or from a critical hit. On a success, the sorcerer drops to 1 hit point instead."
+					]
+				},
+				{
+					"name": "Undead Horde",
+					"entries": [
+						"At 6th level you can spend your sorcery points to cast Animate Dead a spell slot higher for each point expended."
+					]
+				},
+				{
+					"name": "Potent Necromancy",
+					"entries": [
+						"At 6th level you can spend your sorcery points to cast Animate Dead a spell slot higher for each point expended."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Sickle",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@b Hit}: 5 ({@damage 1d4 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Summon Hound of Ill Omen (1/Day",
+					"entries": [
+						"The sorcerer summons a hell hound from the Nine Hells to an empty space within 30 feet of it. The hell hound is fiercely loyal to the sorcerer and remains in the material realm for 1 minute or until the sorcerer dismisses it as an action."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"urban"
+			],
+			"fluff": {
+				"entries": [
+					"I refuse to become a victim, and I will not allow others ",
+					"to be victimized.",
+					"I’ll stop the spirits that haunt me or die trying. ",
+					"There’s evil in me, I can feel it. It must never be set ",
+					"free.",
+					" I talk to spirits that no one else can see.",
+					"Will grow up to be ",
+					"Nerotia Naxxremis",
+					"Tamona Doomweaver",
+					"Malice",
+					"Nightfall",
+					"The Plaguemaster",
+					"Pryca Bazhul Mortice. "
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.pinimg.com/474x/0a/44/40/0a4440f1757ad068e58e1a31cdf754ac.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.pinimg.com/474x/0a/44/40/0a4440f1757ad068e58e1a31cdf754ac.jpg",
+			"traitTags": [
+				"Undead Fortitude"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"DS",
+				"X"
+			],
+			"damageTags": [
+				"S"
+			],
+			"spellcastingTags": [
+				"CS",
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "668f8b2356905fcd9bdd6ccb01250ad8"
+		},
+		{
+			"name": "Mika Thune",
+			"shortName": "Mika Thune",
+			"alias": [
+				"Malice Nightfall"
+			],
+			"source": "BarrianHomebrew",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"Lichling"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"formula": "6d6 + 18",
+				"average": 41
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 18,
+			"con": 16,
+			"int": 12,
+			"wis": 12,
+			"cha": 17,
+			"skill": {
+				"deception": "+6",
+				"stealth": "+7"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 11,
+			"immune": [
+				"necrotic"
+			],
+			"languages": [
+				"Deep Speech plus any one language"
+			],
+			"cr": "6",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The sorcerer's spellcasting ability is Charisma ({@hit 7} to hit with spell attacks, spell save {@dc 15}). The sorcerer can cast the following spells innately:"
+					],
+					"will": [
+						"{@spell chill touch}",
+						"{@spell death bolt|newspells}",
+						"{@spell false life}",
+						"{@spell message|PHB}",
+						"{@spell moth swarm|newspells}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell ray of sickness|PHB}"
+						]
+					},
+					"spells": {
+						"1": {
+							"spells": [
+								"{@spell life fades|newspells}",
+								"{@spell palpitate|newspells}",
+								"{@spell soul drain|newspells}",
+								"{@spell wrath|newspells}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell heartripper|COFSA}",
+								"{@spell mirror image|PHB}",
+								"{@spell necrotic visage|GrimloresGrimoire}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell animate dead|PHB}"
+							],
+							"slots": 3
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Innate Necrosis",
+					"entries": [
+						"The power of undeath has long laid dormant in your bloodline and has emerged in you with horrifying consequences",
+						"You have resistance to necrotic damage but are vulnerable to radiant damage. You can only be healed through necromancy, potions, or resting. Any attempt to heal you with divine magic instead damages you for the number rolled. "
+					]
+				},
+				{
+					"name": "Call Upon Souls",
+					"entries": [
+						"The spirits of death surround you.  You can see spectral souls that linger in the material realm and they know that you are aware of them.  You have advantage on all fear checks.  Once per short rest  (per 3 levels) you may  Call Upon Souls to protect you the souls surround you as per shield spell.  Additionally once per short rest (per 3 levels) you may Call Upon Souls to attack.  The souls surround your opponent and draw life force from it doing {@dice 2d6} points of damage an Additional damage die is added for every 2 levels above first.  Using these powers is extremely taxing and you must make a Con savings throw or suffer a level of {@condition exhaustion} if you Call Upon Souls more times than your level before a long rest."
+					]
+				},
+				{
+					"name": "Undead Fortitude",
+					"entries": [
+						"If damage reduces the sorcerer to 0 hit points, it must make a Constitution saving throw with a DC of 5 plus the damage taken, unless the damage is radiant or from a critical hit. On a success, the sorcerer drops to 1 hit point instead."
+					]
+				},
+				{
+					"name": "Undead Horde",
+					"entries": [
+						"At 6th level you can spend your sorcery points to cast Animate Dead a spell slot higher for each point expended."
+					]
+				},
+				{
+					"name": "Potent Necromancy",
+					"entries": [
+						"At 6th level, necrotic damage you deal ignores resistance. Additionally, when rolling necrotic damage, you can treat any 1 on the die as a 2. "
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Sickle",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@b Hit}: 5 ({@damage 1d4 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Summon Hound of Ill Omen (1/Day",
+					"entries": [
+						"The sorcerer summons a hell hound from the Nine Hells to an empty space within 30 feet of it. The hell hound is fiercely loyal to the sorcerer and remains in the material realm for 1 minute or until the sorcerer dismisses it as an action."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"urban"
+			],
+			"fluff": {
+				"entries": [
+					"I refuse to become a victim, and I will not allow others ",
+					"to be victimized.",
+					"I’ll stop the spirits that haunt me or die trying. ",
+					"There’s evil in me, I can feel it. It must never be set ",
+					"free.",
+					" I talk to spirits that no one else can see.",
+					"Will grow up to be ",
+					"Nerotia Naxxremis",
+					"Tamona Doomweaver",
+					"Malice",
+					"Nightfall",
+					"The Plaguemaster",
+					"Pryca Bazhul Mortice. "
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.pinimg.com/474x/0a/44/40/0a4440f1757ad068e58e1a31cdf754ac.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.pinimg.com/474x/0a/44/40/0a4440f1757ad068e58e1a31cdf754ac.jpg",
+			"traitTags": [
+				"Undead Fortitude"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"DS",
+				"X"
+			],
+			"damageTags": [
+				"S"
+			],
+			"spellcastingTags": [
+				"CS",
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "facd751e900243f368b0a8472d04a72f"
+		},
+		{
+			"name": "Hunthusk",
+			"shortName": "Hunthusk",
+			"group": "Koravastron",
+			"source": "BarrianHomebrew",
+			"size": "M",
+			"type": "humanoid",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "4d8 + 4",
+				"average": 22
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 16,
+			"dex": 15,
+			"con": 13,
+			"int": 4,
+			"wis": 8,
+			"cha": 16,
+			"senses": [
+				"darkvision 60 ft.",
+				"tremorsense 120 ft."
+			],
+			"passive": 12,
+			"resist": [
+				"necrotic"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"unconscious"
+			],
+			"languages": [
+				"common",
+				"terran"
+			],
+			"cr": "1",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell fire bolt|PHB}"
+							]
+						}
+					},
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Innate spellcasting",
+					"entries": [
+						"The Hunthusk's innate spellcasting ability is Charisma (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It can innately cast the following spells, requiring no material components: ",
+						"at will: fire bolt"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Corrupting Touch",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) necrotic damage."
+					]
+				},
+				{
+					"name": "Spine",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 30/120 ft., one target. {@h}9 ({@damage 2d6 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Metal Crash (Recharge 5-6).",
+					"entries": [
+						"The Hunthusk slams the ground and chooses to either affect each adjacent creature, or each creature in a 30-foot line. Each affected creature must make a {@dc 12} Dexterity saving throw, taking 7 ({@damage 2d6}) bludgeoning damage on a failed save, or half as much on a successful one. A creature that fails this save also falls {@condition prone}."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Fairy Heights.",
+					"entries": [
+						"When it scores a critical hit, the Hunthusk can make a ranged weapon attack."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"An undeathly construct of Malice Nightfall, the Hunt husks are the Attack dogs of  Korovastron and The Plaguemaster's loyal servants in whenever they are called into action.  climbing as fast as they run they are capable of scaling near smooth surfaces just as quickly as they can run."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.pinimg.com/564x/d0/00/15/d00015d55fbf5d1deffae8f2c4efe37f.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.pinimg.com/564x/d0/00/15/d00015d55fbf5d1deffae8f2c4efe37f.jpg",
+			"senseTags": [
+				"D",
+				"T"
+			],
+			"damageTags": [
+				"B",
+				"N",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RW"
+			],
+			"uniqueId": "b5c6a42d366abc3035877b02800b86b7"
+		},
+		{
+			"name": "Swarm of Hauntterrors",
+			"shortName": "SHT",
+			"source": "BarrianHomebrew",
+			"size": "M",
+			"type": {
+				"type": "undead",
+				"swarmSize": "T"
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "11d8 + 0",
+				"average": 49
+			},
+			"speed": {
+				"walk": 25,
+				"climb": 25,
+				"fly": 25,
+				"canHover": false
+			},
+			"str": 15,
+			"dex": 17,
+			"con": 10,
+			"int": 8,
+			"wis": 8,
+			"cha": 2,
+			"skill": {
+				"athletics": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"resist": [
+				"bludgeoning",
+				"necrotic",
+				"piercing",
+				"slashing"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"restrained",
+				"stunned",
+				"unconscious"
+			],
+			"cr": "2",
+			"action": [
+				{
+					"name": "Swarm",
+					"entries": [
+						"The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny creature. The swarm can't regain hit points or gain temporary hit points, and its weapon attacks deal half damage while it has half or fewer hit points.The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny creature. The swarm can't regain hit points or gain temporary hit points, and its weapon attacks deal half damage while it has half or fewer hit points."
+					]
+				},
+				{
+					"name": "Spell Eater",
+					"entries": [
+						"When the Swarm of Hauntterrors succeeds on a saving throw against a spell, it gains 5 temporary hit points, which last for up to one minute, and gains advantage on attack rolls until the end of its next turn."
+					]
+				},
+				{
+					"name": "Mage Screamer",
+					"entries": [
+						"While it has moved at least half its speed since the start of its last turn, the Swarm of Hauntterrors has advantage on saving throws against being {@condition deafened}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.pinimg.com/564x/03/65/a5/0365a57e0044213a0bc6b2cb74ca32f5.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.pinimg.com/564x/03/65/a5/0365a57e0044213a0bc6b2cb74ca32f5.jpg",
+			"senseTags": [
+				"D"
+			],
+			"uniqueId": "9e43f90bc502e903692bd5fc6cfa08ce"
+		},
+		{
+			"name": "Great Old Hunthusk",
+			"shortName": "GOH",
+			"source": "BarrianHomebrew",
+			"size": "M",
+			"type": "undead",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "14d8 + 56",
+				"average": 119
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 17,
+			"dex": 10,
+			"con": 18,
+			"int": 12,
+			"wis": 14,
+			"cha": 12,
+			"skill": {
+				"athletics": "+5",
+				"intimidation": "+3"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"resist": [
+				"necrotic"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"unconscious"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Able Unicorn",
+					"entries": [
+						"While it has reduced a living creature to 0 hit points within the past minute, opportunity attacks against the Great Old Hunthusk have disadvantage."
+					]
+				},
+				{
+					"name": "Mutliattack",
+					"entries": [
+						"3 attacks per round"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 3}) piercing damage plus 7 ({@damage 2d6}) necrotic damage, and target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the Great Old Hunthusk regains hit points equal to that amount. If this effect reduces a creature's hit point maximum to 0, the creature dies. This reduction to a creature's hit point maximum lasts until the creature finishes a long rest or until it is affected by a spell like greater restoration."
+					]
+				},
+				{
+					"name": "Summon",
+					"entries": [
+						"The Great Old Hunthusk summons {@dice 1d12} Hunthusks with a 35% chance of success. A creature summoned in this way appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other creatures. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action."
+					]
+				},
+				{
+					"name": "Roaring Terror recharge (5 or 6)",
+					"entries": [
+						"The Great old Huntusk can roar as a bonus action causing enemies with in 60ft to make a Wis save {@dc 14} or be {@condition frightened} for 1 minute the victim may make another Wisdom save at the end of its turn Wis {@dc 14}"
+					]
+				},
+				{
+					"name": "Fist and Claw",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 7}) damage, plus 3 ({@damage 1d6 + 3}) damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Dissipation",
+					"entries": [
+						"As A reaction when the Great Old Husk is hit in melee it can dissipate into a black dust, reforming up to 30ft in an unoccupied space at the beginning of its next turn."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.pinimg.com/474x/45/a6/0d/45a60d0ed468e0b93387cec43827f993.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.pinimg.com/474x/45/a6/0d/45a60d0ed468e0b93387cec43827f993.jpg",
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"damageTags": [
+				"N",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "657babd5707cc768c62c772bfe0db268"
+		},
+		{
+			"name": "Mika Thune",
+			"shortName": "Mika Thune",
+			"alias": [
+				"Malice Nightfall"
+			],
+			"source": "BarrianHomebrew",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"Lichling"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"formula": "6d6 + 18",
+				"average": 41
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 18,
+			"con": 16,
+			"int": 12,
+			"wis": 12,
+			"cha": 17,
+			"skill": {
+				"deception": "+6",
+				"stealth": "+7"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 11,
+			"immune": [
+				"necrotic"
+			],
+			"languages": [
+				"Deep Speech plus any one language"
+			],
+			"cr": "6",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The sorcerer's spellcasting ability is Charisma ({@hit 7} to hit with spell attacks, spell save {@dc 15}). The sorcerer can cast the following spells innately:"
+					],
+					"will": [
+						"{@spell chill touch}",
+						"{@spell death bolt|newspells}",
+						"{@spell false life}",
+						"{@spell message|PHB}",
+						"{@spell moth swarm|newspells}"
+					],
+					"daily": {
+						"4e": [
+							"{@spell life fades|newspells}",
+							"{@spell palpitate|newspells}",
+							"{@spell soul drain|newspells}",
+							"{@spell wrath|newspells}"
+						],
+						"3e": [
+							"{@spell ray of sickness|PHB}"
+						]
+					},
+					"spells": {
+						"3": {
+							"spells": [
+								"{@spell animate dead|PHB}"
+							],
+							"slots": 3
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Innate Necrosis",
+					"entries": [
+						"The power of undeath has long laid dormant in your bloodline and has emerged in you with horrifying consequences",
+						"You have resistance to necrotic damage but are vulnerable to radiant damage. You can only be healed through necromancy, potions, or resting. Any attempt to heal you with divine magic instead damages you for the number rolled. "
+					]
+				},
+				{
+					"name": "Call Upon Souls",
+					"entries": [
+						"The spirits of death surround you.  You can see spectral souls that linger in the material realm and they know that you are aware of them.  You have advantage on all fear checks.  Once per short rest  (per 3 levels) you may  Call Upon Souls to protect you the souls surround you as per shield spell.  Additionally once per short rest (per 3 levels) you may Call Upon Souls to attack.  The souls surround your opponent and draw life force from it doing {@dice 2d6} points of damage an Additional damage die is added for every 2 levels above first.  Using these powers is extremely taxing and you must make a Con savings throw or suffer a level of {@condition exhaustion} if you Call Upon Souls more times than your level before a long rest."
+					]
+				},
+				{
+					"name": "Undead Fortitude",
+					"entries": [
+						"If damage reduces the sorcerer to 0 hit points, it must make a Constitution saving throw with a DC of 5 plus the damage taken, unless the damage is radiant or from a critical hit. On a success, the sorcerer drops to 1 hit point instead."
+					]
+				},
+				{
+					"name": "Undead Horde",
+					"entries": [
+						"At 6th level you can spend your sorcery points to cast Animate Dead a spell slot higher for each point expended."
+					]
+				},
+				{
+					"name": "Potent Necromancy",
+					"entries": [
+						"At 6th level you can spend your sorcery points to cast Animate Dead a spell slot higher for each point expended."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Sickle",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@b Hit}: 5 ({@damage 1d4 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Summon Hound of Ill Omen (1/Day",
+					"entries": [
+						"The sorcerer summons a hell hound from the Nine Hells to an empty space within 30 feet of it. The hell hound is fiercely loyal to the sorcerer and remains in the material realm for 1 minute or until the sorcerer dismisses it as an action."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"urban"
+			],
+			"fluff": {
+				"entries": [
+					"I refuse to become a victim, and I will not allow others ",
+					"to be victimized.",
+					"I’ll stop the spirits that haunt me or die trying. ",
+					"There’s evil in me, I can feel it. It must never be set ",
+					"free.",
+					" I talk to spirits that no one else can see.",
+					"Will grow up to be ",
+					"Nerotia Naxxremis",
+					"Tamona Doomweaver",
+					"Malice",
+					"Nightfall",
+					"The Plaguemaster",
+					"Pryca Bazhul Mortice. "
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.pinimg.com/474x/0a/44/40/0a4440f1757ad068e58e1a31cdf754ac.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.pinimg.com/474x/0a/44/40/0a4440f1757ad068e58e1a31cdf754ac.jpg",
+			"traitTags": [
+				"Undead Fortitude"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"DS",
+				"X"
+			],
+			"damageTags": [
+				"S"
+			],
+			"spellcastingTags": [
+				"CS",
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "3af8ee4d784e731b8dec85f6b8504e71"
+		},
+		{
+			"name": "Sunamon Deathlock Mastermind",
+			"shortName": "Sunamon",
+			"source": "BarrianHomebrew",
+			"page": 129,
+			"size": "M",
+			"type": "undead",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				13,
+				{
+					"ac": 16,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 110,
+				"formula": "20d8 + 20"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 16,
+			"con": 12,
+			"int": 15,
+			"wis": 12,
+			"cha": 17,
+			"save": {
+				"int": "+5",
+				"cha": "+6"
+			},
+			"skill": {
+				"arcana": "+5",
+				"history": "+5",
+				"perception": "+4"
+			},
+			"senses": [
+				"darkvision 120 ft. (including magical darkness)"
+			],
+			"passive": 14,
+			"resist": [
+				"necrotic",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks that aren't silvered"
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"poisoned"
+			],
+			"languages": [
+				"the languages it knew in life"
+			],
+			"cr": "8",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The deathlock's innate spellcasting ability is Charisma (spell save {@dc 14}). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell detect magic}",
+						"{@spell disguise self}",
+						"{@spell mage armor}"
+					],
+					"ability": "cha",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The deathlock is a 10th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell chill touch}",
+								"{@spell mage hand}",
+								"{@spell minor illusion}",
+								"{@spell poison spray}"
+							]
+						},
+						"5": {
+							"lower": 1,
+							"slots": 2,
+							"spells": [
+								"{@spell arms of Hadar}",
+								"{@spell blight}",
+								"{@spell counterspell}",
+								"{@spell crown of madness}",
+								"{@spell darkness}",
+								"{@spell dimension door}",
+								"{@spell dispel magic}",
+								"{@spell fly}",
+								"{@spell hold monster}",
+								"{@spell invisibility}"
+							]
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Turn Resistance",
+					"entries": [
+						"The deathlock has advantage on saving throws against any effect that turns undead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Deathly Claw",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 3d6 + 3}) necrotic damage)."
+					]
+				},
+				{
+					"name": "Grave Bolts",
+					"entries": [
+						"{@atk rs} {@hit 6} to hit, range 120 ft., one or two targets. {@h}18 ({@damage 4d8}) necrotic damage. If the target is Large or smaller, it must succeed on a {@dc 16} Strength saving throw or become {@condition restrained} as shadowy tendrils wrap around it for 1 minute. A {@condition restrained} target can use its action to repeat the saving throw, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Staff of Withering",
+					"entries": [
+						"Staff, Simple Weapon, Melee Weapon, Major, Rare (Requires Attunement by a Cleric, Druid, or Warlock)",
+						"4 lb.\t{@dice 1d6} bludgeoning - versatile ({@dice 1d8})",
+						"This staff has 3 charges and regains {@dice 1d3} expended charges daily at dawn.",
+						"The staff can be wielded as a magic quarterstaff. On a hit, it deals damage as a normal quarterstaff, and you can expend 1 charge to deal an extra {@damage 2d10} necrotic damage to the target. In addition, the target must succeed on a {@dc 15} Constitution saving throw or have disadvantage for 1 hour on any ability check or saving throw that uses Strength or Constitution.",
+						"Versatile. This weapon can be used with one or two hands. A damage value in parentheses appears with the property—the damage when the weapon is used with two hands to make a melee attack."
+					]
+				}
+			],
+			"variant": [
+				{
+					"name": "Patron-Specific Spells",
+					"entries": [
+						"You can customize a deathlock by replacing some or all of the spells in its Spellcasting trait with spells specific to its patron. Here are examples.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								"Archfey patron: {@spell blink}, {@spell dominate beast}, {@spell dominate person}, {@spell faerie fire}, {@spell greater invisibility}, {@spell hunger of Hadar}, {@spell hypnotic pattern}, {@spell phantasmal force}, {@spell seeming}, {@spell sleep}",
+								"Fiend patron: {@spell blindness/deafness}, {@spell burning hands}, {@spell command}, {@spell fire shield}, {@spell fireball}, {@spell flame strike}, {@spell hellish rebuke}, {@spell scorching ray}, {@spell stinking cloud}, {@spell wall of fire}",
+								"Great Old One patron: {@spell clairvoyance}, {@spell detect thoughts}, {@spell dissonant whispers}, {@spell dominate person}, {@spell Evard's black tentacles}, {@spell hunger of Hadar}, {@spell phantasmal force}, {@spell sending}, {@spell Tasha's hideous laughter}, {@spell telekinesis}"
+							]
+						}
+					],
+					"type": "variant"
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"fluff": {
+				"name": "Deathlock Mastermind",
+				"source": "MTF",
+				"entries": [
+					{
+						"type": "entries",
+						"name": "Deathlock Mastermind",
+						"entries": [
+							"Though deathlocks exist to serve their patrons, they retain some freedom when it comes to devising particular tactics and carrying out their plans. Powerful deathlocks recruit lesser creatures to help them carry out their missions and, in this capacity, become the masterminds behind vast conspiracies and intrigues that culminate in the accomplishment of great acts of evil."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Deathlock",
+						"entries": [
+							"The forging of a pact between a warlock and a patron is no minor occasion—at least not for the warlock. The consequences of breaking that pact can be dire and, in some cases, lethal. A warlock who fails to live up to a bargain with an evil patron runs the risk of rising from the dead as a deathlock, a foul undead driven to serve its otherworldly patron from beyond the grave.",
+							"An extraordinarily powerful necromancer might also discover the dark methods of creating a deathlock and then bind it to service, acting in this respect as the deathlock's patron."
+						]
+					},
+					{
+						"name": "Obedient and Obsessed",
+						"type": "entries",
+						"entries": [
+							"An overpowering urge to serve consumes the mind of a newly awakened deathlock. All goals and ambitions it had in life that don't please its patron fall away as its master's desires become the purpose that drives the deathlock.",
+							"The creature immediately resumes work on its patron's behalf. Accomplishing a difficult goal might mean the deathlock is forced to serve another powerful creature or might entail in gathering servants of its own.",
+							"Whatever the goal, it always reflects the patron's interests, ranging from small-scale concerns to matters of cosmic scope. A deathlock in the thrall of a fiend might work to destroy a specific temple dedicated to a good god, while one that serves a Great Old One could be charged with hunting for the materials needed to call forth a horrifying entity into the world."
+						]
+					},
+					{
+						"name": "Undead Nature",
+						"type": "entries",
+						"entries": [
+							"A deathlock doesn't require air, food, drink, or sleep."
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MTF/Deathlock.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/MTF/Deathlock Mastermind.png?v=1.96.3",
+			"soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/612/deathlock-mastermind.mp3",
+			"traitTags": [
+				"Turn Resistance"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"LF"
+			],
+			"damageTags": [
+				"N"
+			],
+			"spellcastingTags": [
+				"CL",
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "0b37e5c632d5ab71f4973c9c67634849"
+		},
+		{
+			"name": "Greater Castorhage Vampire",
+			"shortName": "GCV",
+			"source": "BarrianHomebrew",
+			"size": "M",
+			"type": {
+				"type": "undead",
+				"tags": [
+					"shapechanger"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "27d10 + 54",
+				"average": 202
+			},
+			"speed": {
+				"walk": 50,
+				"fly": 60,
+				"canHover": false
+			},
+			"str": 22,
+			"dex": 21,
+			"con": 18,
+			"int": 18,
+			"wis": 17,
+			"cha": 22,
+			"save": {
+				"con": "+9",
+				"int": "+9",
+				"wis": "+8"
+			},
+			"skill": {
+				"history": "+9",
+				"perception": "+13",
+				"stealth": "+10"
+			},
+			"senses": [
+				"blindsight 120ft."
+			],
+			"passive": 23,
+			"resist": [
+				"cold",
+				"fire",
+				"lightning",
+				"necrotic"
+			],
+			"immune": [
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical weapons"
+				}
+			],
+			"languages": [
+				"any six languages"
+			],
+			"cr": "16",
+			"trait": [
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"As a bonus action, the vampire can polymorph into a Medium cloud of mist, or back into its true form. While in mist form, the vampire can't speak, or manipulate objects. It is weightless, has a flying speed of 60 feet, can hover, and can enter a hostile creature's space and stop there. In addition, if air can pass through a space, the mist can do so without squeezing, and it can't pass through water. It has advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to all nonmagical damage."
+					]
+				},
+				{
+					"name": "Enigmatic Nature",
+					"entries": [
+						"The vampire is immune to effects that turn undead, as well as any divination spell that it refuses."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the vampire fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Attacks",
+					"entries": [
+						"The vampire's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Monstrous Form (Recharges after a Short or Long Rest)",
+					"entries": [
+						"If the vampire isn't in sunlight and if it has fewer than half of its hit points remaining, the vampire immediately polymorph into a Large monstrous form for 10 minutes. Its statistics, other than its size and speed, are unchanged. Anything it is wearing transforms with it, but nothing it is carrying does. It reverts to its true form if it dies. While in monstrous form, the vampire has the following traits:",
+						"The vampire cannot use its shapechanger feature and has disadvantage on blood frenzy saving throws.",
+						"The vampire gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack only) or Dash action.",
+						"The vampire gains a flying speed of 150 feet.",
+						"The vampire has resistance to all damage except radiant damage."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"In the presence of blood the vampire regains 30 hit points at the start of its turn by absorbing the blood through its skin. If a magical piercing weapon made of silver is driven into the vampire's heart while the vampire is {@condition incapacitated}, this trait doesn't function at the start of the vampire's next turn. The vampire dies only if it starts its turn with 0 hit points and doesn't regenerate."
+					]
+				},
+				{
+					"name": "Rejuvenation",
+					"entries": [
+						"If the vampire is killed, it regains all its hit points at the next sunset unless its body was destroyed, in which case it will take {@dice 1d10} year to rejuvenate at the location of its death. If another higher vampire reduces its Constitution to 0 with its bite attack or it is killed during a total solar eclipse, the vampire is destroyed for good."
+					]
+				},
+				{
+					"name": "Vampire Weaknesses",
+					"entries": [
+						"The vampire has the following flaws:",
+						"{@i Absent Reflection} The vampire does not appear in mirrors or reflective surfaces.",
+						"{@i Blood Addiction} If the vampire used successfully its bite or blood drain attack on a creature in the past 24 hours, the vampire has disadvantage on blood frenzy saving throws.",
+						"{@i Dalvenite Allergy} The vampires is allergic to dalvenite, a costly alloy composed of meteoric steel and silver. If the vampire starts its turn within 5 feet of dalvenite it cannot use its Shapechanger and Monstrous Form feature until the end of its turn. The vampire automatically fails Strength ability checks to break dalvenite.  A dalvenite box can be used to imprison a Greater Castorhage Vampire"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The vampire makes three melee attacks, only one of which can be a bite attack."
+					]
+				},
+				{
+					"name": "Claws (Vampire and Monstrous Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 5 ft., one target. {@h}24 ({@damage 3d10 + 8}) slashing damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 21})."
+					]
+				},
+				{
+					"name": "Bite (Vampire and Monstrous Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 5 ft., one creature that is {@condition grappled} by the vampire, {@condition incapacitated} or {@condition restrained}. {@h}21 ({@damage 3d8 + 8}) piercing damage and the target's Constitution score is reduced by {@dice 1d6}. The target dies if this reduces its Constitution to 0. Otherwise, the reduction lasts until the target finishes a short or long rest."
+					]
+				},
+				{
+					"name": "Blood Drain (Mist Form Only)",
+					"entries": [
+						"One creature in the vampire's space must make a {@dc 21} Constitution saving throw (undead and constructs automatically succeed). On a failed save, the target takes 22 ({@damage 4d6 + 8}) necrotic damage, its hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. This reduction to the target's hit point maximum lasts until the target finishes a long rest. It dies if this effect reduces its hit point maximum to 0."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Move",
+					"entries": [
+						"The vampire moves up to its speed without provoking opportunity attacks."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"The vampire makes one attack with its claws."
+					]
+				},
+				{
+					"name": "Bite (Costs 2 Actions)",
+					"entries": [
+						"The vampire makes one bite attack."
+					]
+				}
+			],
+			"variant": [
+				{
+					"name": "Death Weaver",
+					"entries": [
+						{
+							"name": "Weave the Mortal Coil",
+							"entries": [
+								"The vampire can cast {@spell raise dead} and {@spell create undead} at will, requiring no components and at any higher level it wishes to. Its spellcasting ability for it is Charisma."
+							]
+						},
+						{
+							"type": "section",
+							"name": "Actions",
+							"entries": [
+								{
+									"name": "Wind of Death (Recharge 5-6)",
+									"entries": [
+										"The vampire summons a gust of deathly wind in a 90-foot line that is 10 feet wide. Each creature in that line must make a {@dc 21} Constitution saving throw, taking 67 ({@damage 15d8}) necrotic damage on a failed save, or half as much damage on a successful one. A creature dies if the wind reduces it to 0 hit points. A humanoid slain by the wind rises 1 minute later as a zombie under the vampire's control, unless the humanoid is restored to life or its body is destroyed."
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Legendary Actions",
+							"entries": [
+								{
+									"name": "Frightening Gaze (Costs 2 Actions)",
+									"entries": [
+										"The vampire fixes its gaze on one creature it can see within 10 feet of it. The target must succeed on a {@dc 21} Wisdom saving throw against this magic or become {@condition frightened} for 1 minute. The {@condition frightened} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to the vampire's gaze for the next 24 hours."
+									]
+								}
+							]
+						}
+					],
+					"type": "variant"
+				},
+				{
+					"name": "Feral King",
+					"entries": [
+						{
+							"name": "Alpha Vampire",
+							"entries": [
+								"The vampire can cast {@spell antipathy/sympathy} at will, requiring no components. Its spellcasting ability for it is Charisma (spell save {@dc 21}). This use of the spell can only affect lesser vampires."
+							]
+						},
+						{
+							"type": "section",
+							"name": "Actions",
+							"entries": [
+								{
+									"name": "Feral Swarm (Recharge 5-6)",
+									"entries": [
+										"A giant swarm of bats gather around the higher vampire and descend upon a 90-foot cone. Each creature in that area must make a {@dc 21} Dexterity saving throw or be knocked {@condition prone} and take 32 ({@damage 7d8}) bludgeoning damage plus 32 ({@damage 7d8}) piercing damage. On a successful save, the creature takes only half the damage and isn't knocked {@condition prone}."
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Legendary Actions",
+							"entries": [
+								{
+									"name": "Ancient Might (Costs 2 Actions)",
+									"entries": [
+										"The vampire makes one attack with its claws. If it hits, the attack is a critical hit. A creature taking damage from the attack suffers from a Lingering Injury (See p. 272 of the Dungeon Master's Guide)."
+									]
+								}
+							]
+						}
+					],
+					"type": "variant"
+				}
+			],
+			"fluff": {},
+			"tokenUrl": "https://i.pinimg.com/564x/8a/a8/88/8aa888b9c939b60ab6a9623f66ca1944.jpg",
+			"traitTags": [
+				"Legendary Resistances",
+				"Regeneration",
+				"Rejuvenation",
+				"Shapechanger"
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"X"
+			],
+			"damageTags": [
+				"B",
+				"N",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"frightened",
+				"prone"
+			],
+			"conditionInflicted": [
+				"frightened",
+				"prone"
+			],
+			"uniqueId": "23eb1a74dd640bbd7100a372e0bd5e7e"
+		},
+		{
+			"name": "The Antiquarian",
+			"source": "BarrianHomebrew",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					{
+						"tag": "teifling",
+						"prefix": "Tiefling"
+					}
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				15
+			],
+			"hp": {
+				"formula": "6d6 + 12",
+				"average": 33
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 20,
+				"canHover": false
+			},
+			"str": 13,
+			"dex": 16,
+			"con": 14,
+			"int": 19,
+			"wis": 14,
+			"cha": 14,
+			"save": {
+				"int": "+7",
+				"wis": "+5"
+			},
+			"skill": {
+				"arcana": "+7",
+				"history": "+7",
+				"religion": "+7",
+				"investigation": "+7",
+				"insight": "+5",
+				"performance": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"Common",
+				"Infernal",
+				"Abyssal"
+			],
+			"cr": "0",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell blade ward|PHB}",
+								"{@spell mage hand|PHB}",
+								"{@spell resistance|PHB}"
+							]
+						}
+					},
+					"type": "spellcasting"
+				},
+				{
+					"name": "innate spellcasting",
+					"daily": {
+						"1": [
+							"{@spell darkness|PHB}",
+							"{@spell hellish rebuke|PHB}",
+							"{@spell thaumaturgy|PHB}"
+						]
+					},
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Flesh Crawl",
+					"entries": [
+						"A traget that you can see within 30 ft insects begin to crawl under skin and burrow there way out {@dice d8 + d8} at level 5, 10, 15 etc. Con save for half"
+					]
+				},
+				{
+					"name": "Esoterics",
+					"entries": [
+						"Flexible Magic:",
+						"  When you cast the mage hand cantrip, it can perform all tasks you would be able to if it were your real hand. Attacks with the mage hand still take your action as usual and are made with a spell attack roll instead of any other attribute. ",
+						"Master of Many Hands",
+						"When you cast mage hand, you can conjure a number of mage hands equal to your proficiency bonus. You can command all active hands with a single action. ",
+						"Whispering Ward",
+						"When you cast blade ward, you can choose up to five creatures you can see within 30 feet of you. Each of those creatures also benefits from the spell for its duration. ",
+						"Sole Trader",
+						"You learn the find familiar spell, which you can only use to summon an imp."
+					]
+				},
+				{
+					"name": "staff",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) damage."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"AB",
+				"C",
+				"I"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "0f5dcf0542e2964d87c6f2db32e16f47"
+		},
+		{
+			"name": "Dr. Braum",
+			"source": "BarrianHomebrew",
+			"size": "M",
+			"type": "humanoid",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"formula": "6d6 + 6",
+				"average": 27
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 14,
+			"con": 13,
+			"int": 18,
+			"wis": 12,
+			"cha": 16,
+			"save": {
+				"int": "+7",
+				"wis": "+4"
+			},
+			"skill": {
+				"arcana": "+7",
+				"history": "+7",
+				"insight": "+4",
+				"investigation": "+7",
+				"medicine": "+7",
+				"religion": "+7"
+			},
+			"passive": 11,
+			"cr": "8",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell eldritch blast|PHB}",
+								"{@spell infestation|XGE}",
+								"{@spell mage hand|PHB}",
+								"{@spell message|PHB}",
+								"{@spell spare the dying|PHB}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell inflict pain|DAPC}",
+								"{@spell inflict wounds|PHB}",
+								"{@spell mage armor|PHB}",
+								"{@spell sleep|PHB}",
+								"{@spell tasha's hideous laughter|PHB}"
+							],
+							"slots": 0
+						},
+						"2": {
+							"spells": [
+								"{@spell blindness/deafness|PHB}",
+								"{@spell hold person|PHB}"
+							],
+							"slots": 0
+						},
+						"3": {
+							"spells": [
+								"{@spell fear|PHB}",
+								"{@spell major image|PHB}"
+							],
+							"slots": 0
+						},
+						"4": {
+							"spells": [
+								"{@spell hallucinatory terrain|PHB}"
+							],
+							"slots": 0
+						},
+						"5": {
+							"spells": [
+								"{@spell modify memory|PHB}"
+							],
+							"slots": 0
+						}
+					},
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Immune to Pain:",
+					"entries": [
+						" Feels no physical pain whatsoever, and is immune to spells and effects which rely on its production."
+					]
+				},
+				{
+					"name": "spell snipper",
+					"entries": [
+						"You have learned techniques to enhance your attacks with certain kinds of spells, gaining the following benefits:",
+						"• When you cast a spell that requires a ranged attack roll, the spell's range is doubled.",
+						"• Your ranged spell attacks ignore half cover and three-quarters cover.",
+						"• You learn a single cantrip that requires an attack roll from a class of your choice: bard, cleric, sorcerer, warlock, or wizard. Your spellcasting modifier for these spells is the same as the class you chose (Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid; Intelligence for wizard)"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Rod of Pain",
+					"entries": [
+						"While using this rod as an arcane focus, add your spellcasting ability modifier to spell damage rolls."
+					]
+				},
+				{
+					"name": "Sharpened nails",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d4 + 4}) damage."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"fluff": {
+				"entries": [
+					"Sub-Director for the Department of Torture. Got her MD with a specialization on the nervous system. She is a grinning, slicing, dicing mad scientist through and through. Complete lack of empathy and ethics, though for some reason she loves children, and undergrads.",
+					"Lab coat and heels, crazy eyes.",
+					"Always looking for samples: “Brains, whole; brains, stems; brains, partial; spines; nerves; and spells!” Carefully documents where they come from.",
+					"SECRET: Actually an honest sadist. This would ruin her reputation within the Department, because for some reason it would violate its policy of ‘dispassionate scientific study’."
+				]
+			},
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "5dd5700bcecdb9b31e2479029a3a6c54"
+		},
+		{
+			"name": "Tzar (Katarina the Black)",
+			"source": "BarrianHomebrew",
+			"level": 13,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 22,
+					"from": [
+						"natural armor",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"special": "125"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 30,
+				"canHover": false
+			},
+			"str": 20,
+			"dex": 20,
+			"con": 20,
+			"int": 19,
+			"wis": 17,
+			"cha": 20,
+			"save": {
+				"str": "+10",
+				"con": "+10",
+				"wis": "+8",
+				"cha": "+10"
+			},
+			"skill": {
+				"arcana": "+9",
+				"athletics": "+10",
+				"acrobatics": "+10",
+				"intimidation": "+10"
+			},
+			"passive": 13,
+			"languages": [
+				"Any three languages"
+			],
+			"cr": "14",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The eldritch knight is a 2nd-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 18}, +10 to hit with spell attacks). The eldritch knight has the following wizard spells prepared, which it can cast without somatic or material components:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell chill touch|PHB}",
+								"{@spell eldritch blast|PHB}",
+								"{@spell mage hand|PHB}",
+								"{@spell thaumaturgy|PHB}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell alarm}",
+								"{@spell arms of hadar|PHB}",
+								"{@spell detect magic|PHB}",
+								"{@spell expeditious retreat|PHB}",
+								"{@spell hex|PHB}",
+								"{@spell shield}",
+								"{@spell witch bolt|PHB}"
+							],
+							"slots": 4,
+							"lower": 1
+						},
+						"2": {
+							"spells": [
+								"{@spell alter self|PHB}",
+								"{@spell cloud of daggers|PHB}",
+								"{@spell misty step|PHB}",
+								"{@spell spider climb|PHB}"
+							],
+							"slots": 2,
+							"lower": 1
+						}
+					},
+					"daily": {
+						"1": [
+							"{@spell hellish rebuke|PHB}"
+						]
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Eldritch invocations",
+					"will": [
+						"{@spell disguise self|PHB}",
+						"{@spell mage armor|PHB}"
+					],
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Bonded Weapon",
+					"entries": [
+						"The eldritch knight's bonded weapon is its Tarak. The eldritch knight cannot be disarmed if it is wielding its Tarak. As a bonus action, the eldritch knight can magically teleport its Tarak into its hand."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The eldritch knight makes two attacks with its tarak."
+					]
+				},
+				{
+					"name": "Guarde strike",
+					"entries": [
+						"Tzar knows a specialized form of martial arts that allows her to use the gaurde spikes on her armor as weapons.  As a bonus action she can lash out with her arms and legs driving the spikes into her opponent  ",
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}13 ({@damage 1d6 + 10}) damage."
+					]
+				},
+				{
+					"name": "Blood Luster +2-5",
+					"entries": [
+						"Tzar's Pack weapon is a bat winged great axe that is +2 until it is blooded at which point it increase in to hit and damage by one per round to a maximum of +5 and the user must make a Wis Save of 15 or slide into a Berserkers rage.",
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}16 ({@damage 1d12 + 10}) damage."
+					]
+				},
+				{
+					"name": "Rasp",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}13 ({@damage 1d6 + 10}) damage."
+					]
+				},
+				{
+					"name": "Tarak +2",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, one target. {@b Hit}: 10 ({@damage 1d12 + 5}) slashing damage, "
+					]
+				},
+				{
+					"name": "Long Bow +2",
+					"entries": [
+						"{@atk rw} {@hit 12} to hit, unlimited range, one target. {@h}16 ({@damage 1d8 + 12}) damage, plus 16 ({@damage 1d8 + 12}) damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"S"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"uniqueId": "3687e098e6fc2743d65df120b09064b8"
+		},
+		{
+			"name": "Lord Hathsbane (Necromancer)",
+			"source": "BarrianHomebrew",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				12,
+				{
+					"ac": 15,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 66,
+				"formula": "12d8 + 12"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 14,
+			"con": 12,
+			"int": 17,
+			"wis": 12,
+			"cha": 11,
+			"save": {
+				"int": "+7",
+				"wis": "+5"
+			},
+			"skill": {
+				"arcana": "+7",
+				"history": "+7"
+			},
+			"passive": 11,
+			"resist": [
+				"necrotic"
+			],
+			"languages": [
+				"any four languages"
+			],
+			"cr": "9",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The necromancer is a 12th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 15}, {@hit 7} to hit with spell attacks). The necromancer has the following wizard spells prepared:"
+					],
+					"footerEntries": [
+						"*Necromancy spell of 1st level or higher"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell chill touch}",
+								"{@spell dancing lights}",
+								"{@spell mage hand}",
+								"{@spell mending}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell detect evil and good|PHB}",
+								"{@spell false life}*",
+								"{@spell mage armor}",
+								"{@spell ray of sickness}*"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell barkskin|PHB}",
+								"{@spell blindness/deafness}*",
+								"{@spell gentle repose|PHB}",
+								"{@spell ray of enfeeblement}*",
+								"{@spell web}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell animate dead}*",
+								"{@spell bestow curse}*",
+								"{@spell revivify|PHB}",
+								"{@spell speak with dead|PHB}",
+								"{@spell vampiric touch}*"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell blight}*",
+								"{@spell dimension door}",
+								"{@spell stoneskin}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell Bigby's hand}",
+								"{@spell cloudkill}"
+							],
+							"slots": 2
+						},
+						"6": {
+							"spells": [
+								"{@spell circle of death}*"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Grim Harvest (1/Turn)",
+					"entries": [
+						"When necromancer kills a creature that is neither a construct nor undead with a spell of 1st level or higher, the necromancer regains hit points equal to twice the spell's level, or three times if it is a necromancy spell."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Withering Touch",
+					"entries": [
+						"{@atk ms} {@hit 7} to hit, reach 5 ft., one creature. {@h}5 ({@damage 2d4}) necrotic damage."
+					]
+				}
+			],
+			"environment": [
+				"desert",
+				"urban"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"Necromancers are specialist wizards who study the interaction of life, death, and undeath. Some like to dig up corpses to create undead slaves. A few use their powers for good, becoming hunters of the undead and risking their lives to save others."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.pinimg.com/564x/f2/b8/9d/f2b89de5eff948bc271f20afbf8b52ad.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/VGM/Necromancer.png?v=1.102.2",
+			"soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/352/necromancer.mp3",
+			"languageTags": [
+				"X"
+			],
+			"damageTags": [
+				"N"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"uniqueId": "8c4840d6b5b5cc9dc1e70c7b19d4fb83"
+		},
+		{
+			"name": "Voodoo Witch",
+			"source": "BarrianHomebrew",
+			"level": 9,
+			"size": "M",
+			"type": "humanoid",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				13,
+				{
+					"ac": 18,
+					"condition": "Guardians",
+					"braces": true
+				}
+			],
+			"hp": {
+				"special": "108"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 16,
+			"con": 16,
+			"int": 14,
+			"wis": 12,
+			"cha": 18,
+			"save": {
+				"wis": "+5",
+				"cha": "+8"
+			},
+			"skill": {
+				"arcana": "+6",
+				"deception": "+8",
+				"history": "+6",
+				"medicine": "+5",
+				"nature": "+6",
+				"survival": "+5"
+			},
+			"senses": [
+				"truesight 30 ft.",
+				"blindsight 60 ft."
+			],
+			"passive": 11,
+			"resist": [
+				"acid",
+				"cold",
+				"fire",
+				"force",
+				"thunder"
+			],
+			"immune": [
+				"necrotic"
+			],
+			"vulnerable": [
+				"radiant"
+			],
+			"cr": "10",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell eldritch blast|PHB}",
+								"{@spell infestation|XGE}",
+								"{@spell mage hand|PHB}",
+								"{@spell mind strike|Stream}",
+								"{@spell poison spray|PHB}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell Tenser's floating disk|PHB}",
+								"{@spell unseen servant|PHB}"
+							],
+							"slots": 0
+						},
+						"5": {
+							"spells": [
+								"{@spell antilife shell|PHB}",
+								"{@spell armor of Agathys|PHB}",
+								"{@spell arms of Hadar|PHB}",
+								"{@spell bane|PHB}",
+								"{@spell cloud of daggers|PHB}",
+								"{@spell cone of cold|PHB}",
+								"{@spell dominate person|PHB}",
+								"{@spell summon eldritch servitor|DM17}",
+								"{@spell transform zombie|BoLS 3pp}",
+								"{@spell umbral weapon|BoLS 3pp}"
+							],
+							"slots": 0,
+							"lower": 1
+						}
+					},
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Soul Drinker",
+					"entries": [
+						"Starting at 2nd level, the Witch Doctor learns how to literally devour the soul of a fallen enemy, using it to fuel his own vitality. When you reduce a hostile creature to 0 hit points with a killing blow, or when the target of your Voodoo Curse is reduced to 0 hit points, you regain hit points equal to your Wisdom modifier. If you are already at full health, the additional healing is converted into Temporary Hit Points. "
+					]
+				},
+				{
+					"name": "Mojo",
+					"entries": [
+						"he Old God bestows a gift upon you for your loyal service. You are given a shrunken head Mojo (whose name is incidentally ‘Mojo’), emanating powerful black magic and occasionally coming to life to engage in conversation. Mojo himself is quite a chatterbox with an alcohol problem, and his hard head can be used as a {@dice 1d4} bludgeon when held in the off-hand. The Witch Doctor’s Mojo acts as a Tome (Warlock’s Pact of Tome), allowing the bearer to choose three cantrips from any class’ spell list. While the Mojo is on your person, you can cast those cantrips at will. They do not count against your number of cantrips known. ",
+						"If you lose your Mojo, you can perform a 1-hour voodoo ceremony to get it back—the ritual can be performed during a short or long rest, and you must possess at least one shrunken head reagent. The Old God will imbue another shrunken head with a worthy spirit to replace the last. The previous Mojo turns to ash when replaced or when the Witch Doctor dies. "
+					]
+				},
+				{
+					"name": "Black Soul",
+					"entries": [
+						"the Witch Doctor's soul itself is infused with the darkness emanating from the Old God, granting him access to mysterious magics and primordial power the likes of which he has never known. The Witch Doctor's number of “Spells Known”, and “Spell Slots” increases by 2, and Voodoo Bolt deals an additional {@damage 1d10} damage. "
+					]
+				},
+				{
+					"name": "Hunga Munga",
+					"entries": [
+						"once per short or long rest, the Witch Doctor can use his own life-force to bargain with the Old God. Spending 1 Hit Die, he conjures a wicked black dagger from the spirit realm and viciously rends a foe within striking distance. Make a Spell attack ({@dice 1d20} + proficiency bonus + spell attack modifier) against a target within 5 feet inflicting {@damage 3d10} necrotic damage on hit. Damage increases by {@dice 1d10} for each level of your current max spell level. After the hit, you can continue to spend additional Hit Die to twist the blade, adding each roll individually onto the total damage. If Hunga Munga kills the target, 1 of your Hit Die is refunded. "
+					]
+				},
+				{
+					"name": "That Voodoo That You Do",
+					"entries": [
+						"You are able to channel even more dark energy into your Voodoo Bolt. When casting Voodoo Bolt, add your Wisdom modifier to the damage roll of any successful hit. "
+					]
+				},
+				{
+					"name": "Talking Head",
+					"entries": [
+						"Two heads are better than one, they say! Aside from being both a drunk and a chatterbox, it turns out the Witch Doctor’s Mojo also has a surprisingly keen memory—particularly for magic. You can now put your Mojo to work memorizing any manner of magical rituals you happen to come across in your adventures, so long as they are less than or equal to half your Witch Doctor level (rounded up). It takes two hours per spell level of rigorous repetition to permanently pound a new ritual into Mojo’s tiny head, as well as 50gp for the necessary alcohol required to bribe him into cooperating. Choose two 1st-level ritual spells from any spell list: those rituals—and any you are able to teach Mojo down the road—are permanently castable, without taking up a spell slot or a ‘spells known’ slot. "
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "poison dart",
+					"entries": [
+						"Coated with common but painful insect venom (which you must roll a nature check of 10 or above to find and catch enough to make 10 doses of poison), target must make a constitution saving throw Vs 10 + your medicine modifier (with proficiency). If the target fails, the Poison Dart causes 1 Piercing and {@damage 1d4} poison damage as the initial effect. On subsequent turns, the target must make another saving throw or take another {@dice 1d4} plus an additional {@damage 1d4} damage and suffer the effect of \"{@condition poisoned}\". This poison damage increases {@dice 1d4} on each turn as long as the target fails their con save. Damage stacks to a max of {@dice 4d4} and the effect lasts 1 minute (10 turns) or until the target makes a successful saving throw."
+					]
+				},
+				{
+					"name": "Paralyzing Dart",
+					"entries": [
+						"coated with less-common but highly-potent snake venom (must make a nature check of 12 to find and collect enough for 3 doses). The Paralyzing Dart causes {@damage 1d6} poison damage on the target’s following turns. The target must make a Constitution save—if failed, the target is {@condition paralyzed} until it succeeds. Paralyzing Darts stack to a maximum of {@dice 6d6}, and last for 1 minutes until either a successful saving throw or until it is cleansed."
+					]
+				},
+				{
+					"name": "Anesthetic Dart",
+					"entries": [
+						" the Witch Doctor uses his bonus action to modify and coat his next dart with a local anesthetic made from an uncommon mushroom (must make a nature check of 12 to find and collect enough for 3 doses). Shortening and sharpening the needle, the next Dart used does no damage, and falls to the ground immediately after hitting its mark--but it delivers its contents without the target's knowledge. To anyone not aware of the Witch Doctor's attack, it feels like a small bug bite at worst. the target must make a constitution saving throw Vs 10 + your medicine modifier (with proficiency). If the target fails, they fall asleep as if under the effects of the sleep spell."
+					]
+				},
+				{
+					"name": "Rejuvenating Dart",
+					"entries": [
+						"coated with a mild herbal pain reliever (nature {@dc 10} to find and collect 10 doses), it is shot into a friendly target causing 1 piercing damage and healing {@dice 1d4} hit points on the start of the targets turns, lasts 30 seconds (5 turns). Dart healing stacks to a maximum of {@dice 8d4}, and lasts 5 minutes unless target reaches maximum health."
+					]
+				}
+			],
+			"senseTags": [
+				"B",
+				"U"
+			],
+			"damageTags": [
+				"P"
+			],
+			"conditionInflict": [
+				"paralyzed"
+			],
+			"uniqueId": "847109d392fc05dcc67e335a028be20e"
+		}
+	]
+}
